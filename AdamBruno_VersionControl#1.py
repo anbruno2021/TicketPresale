@@ -11,7 +11,7 @@ def buy_tickets(remaining_tickets):
     print(f"\nthere is {remaining_tickets} tickets left")
     
     # ask how many they want
-    desired_tickets = int(input("how many tickets do you want (1-4)? "))
+    desired_tickets = int(input("how many tickets would you like to purchase today? (1-4)? "))
 
     # check if they ask for too many or too few
     if desired_tickets < 1 or desired_tickets > 4:
