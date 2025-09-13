@@ -1,8 +1,8 @@
 # cinema ticket pre-sale
-# lets people buy up to 4 tickets, stops when all 20 sold; also counts how many buyers
+# lets people buy up to 4 tickets, stops when all 10 sold; also counts how many buyers
 
 # total tickets 
-MAX_TICKETS = 20
+MAX_TICKETS = 10
 
 # function for one person buying tickets
 def buy_tickets(remaining_tickets):
